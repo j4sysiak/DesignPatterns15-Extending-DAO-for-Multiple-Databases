@@ -7,7 +7,7 @@ public class MySQLDAOFactory extends DAOFactory {
 	 * @see pl.jaceksysiak.designpatterns.demo1.model.DAOFactory#getPersonDAO()
 	 */
 	@Override
-	public   PersonDAO getPersonDAO() {
+	public PersonDAO getPersonDAO() {
 		return new MySQLPersonDAO();
 	}
 	
